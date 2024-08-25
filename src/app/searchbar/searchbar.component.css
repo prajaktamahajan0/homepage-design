@@ -1,0 +1,66 @@
+.center-buttons {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    background: white; /* Changed to solid white background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 5px 5px; /* Optional padding for spacing */
+    margin: 0 30px;
+    align-items: center;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent !important; /* Keep the toolbar background transparent */
+  }
+
+  .send-icon {
+    color: black; /* Ensure the icon is dark black */
+    transform: rotate(-41deg); /* Rotate the icon to resemble a plane taking off */
+
+  }
+  
+  .custom-input {
+    border: none; /* Removed the border from the input field */
+    outline: none; /* Removed the outline on focus */
+    background: transparent; /* Keep background transparent */
+    color: black; /* Ensure text color is visible */
+    width: 300px; /* Adjust the width as needed */
+    font-size: medium;
+  }
+  
+  button {
+    margin: 0 0px;
+    background: black; /* Set the button background to black */
+    border: none; /* Remove any default border */
+    border-radius: 20px; /* Match button border-radius to container */
+    color: white; /* Set text color to white */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover,
+  button.mat-raised-button:hover {
+    background-color: white; /* Button background on hover */
+    color: red; /* Button text color on hover */
+  }
+  
+  button.sign-up,
+  button.sign-in {
+    border: 2px solid white; /* White border for Sign Up and Sign In buttons */
+  }
+  
+  button.sign-up:hover,
+  button.sign-in:hover {
+    border: 2px solid rgb(249, 247, 247); /* Red border on hover */
+  }
+  
+  .material-icons {
+    font-size: 18px;
+  }

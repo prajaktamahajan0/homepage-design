@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* common css used for only h2, p and button */
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.text-block h2 {
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+
+.text-block p {
+    font-size: 17px;
+    line-height: 1.2;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.btn-join{
+    margin-left: -30rem;
+    font-size: 16px;
+    padding: 6px 20px;
+    color: #fff;
+}
+
+.full-height-card {
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.btn .btn-join{
+    border-radius: 20px;
+}
+
+/* media query */
+
+@media (min-width: 768px)  {
+    
+}

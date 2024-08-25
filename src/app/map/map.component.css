@@ -1,0 +1,57 @@
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rounded {
+    width: 8%;
+    height: 16%;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.inner {
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #d32f2f;
+    padding: 10px;
+    border-radius: 20px;
+    width: 23%;
+}
+
+.inner h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+.plus{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 95%;
+    width: 4%;
+    height: 7%;
+}
+.minus{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 88%;
+    left: 95%;
+    width: 4%;
+    height: 7%;
+}

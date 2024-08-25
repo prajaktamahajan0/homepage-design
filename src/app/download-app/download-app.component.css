@@ -1,0 +1,32 @@
+
+.image{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.btn{
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.red{
+    background-color: #e90d0d;
+}
+.text-block h2 {
+    color: #fff;
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.text-block p{
+   font-weight: 200;
+    color: rgb(230, 220, 220);
+}
+.btnm span{
+    font-size: 10px;
+}

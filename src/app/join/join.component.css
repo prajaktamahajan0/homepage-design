@@ -1,0 +1,24 @@
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 30px 20px; */
+    height: 100.5%;
+}
+
+.image {
+ padding: 1px;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+  clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.custom-card {
+    background-color: #fdf6f2;  
+    border-radius: 20px;  
+  }
+  .full-height-card {
+    padding: 10px 30px ;
+    box-sizing: border-box;
+  }
+  

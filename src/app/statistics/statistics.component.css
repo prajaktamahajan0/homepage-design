@@ -1,0 +1,26 @@
+.statistics-section {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent; /* Changed to transparent */
+  /* width: 110%; */
+  /* position: relative; */
+  left: 186px;
+}
+
+ h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: white; /* Changed to white */
+  font-weight: 900;
+  line-height: 1.2 !important;
+  text-align: center;
+}
+
+ p {
+  font-size: 1.5rem;
+  color: white; /* Changed to white */
+  margin: 0;
+  text-align: center;
+}

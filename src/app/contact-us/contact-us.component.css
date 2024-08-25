@@ -1,0 +1,38 @@
+.full-height-card {
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+p{
+    color: gray;
+}
+.text-grey{
+    font-size: 12px;
+}
+.image {
+    max-width: 120px;
+    margin: 35px 69px;
+    object-fit: cover;
+}
+.text-dark{
+    margin-right: 18px;
+    text-align: center;
+}
+.custom-card {
+    background-color: #fdf6f2;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+}
+.list-unstyled li{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.follow{
+    margin-top: 90px;
+}

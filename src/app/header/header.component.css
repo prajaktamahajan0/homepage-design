@@ -1,0 +1,99 @@
+.custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent !important;  /* Make the toolbar background transparent */
+  }
+  
+  .brand {
+    flex: 0 1 auto;
+  }
+  
+
+  .center-buttons {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background: rgba(255, 255, 255, 56%); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 20px; /* Rounded corners */
+    padding: 5px 10px; /* Optional padding for spacing */
+    margin: 0 30px;
+}
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .custom-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-color: transparent !important;  /* Make the toolbar background transparent */
+  }
+  
+  .brand {
+      flex: 0 1 auto;
+  }
+  
+  
+  button {
+    margin: 0 10px;
+    background: transparent; /* Ensure button background is transparent */
+    border: none; /* Remove any default border */
+    border-radius: 20px; /* Match button border-radius to container */
+    color: white; /* Default text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+  
+  .menu-button {
+    margin-right: 16px; /* Adjust as needed for spacing */
+  }
+
+  button:hover,
+  button.mat-raised-button:hover {
+    background-color: white; /* Button background on hover */
+    color: red; /* Button text color on hover */
+}
+
+/* Selected button styles */
+button.mat-button.mat-accent,
+button.mat-raised-button.mat-accent {
+    background-color: white; /* Button background for selected state */
+    color: red; /* Button text color for selected state */
+}
+
+button.sign-up, 
+button.sign-in {
+    border: 2px solid white; /* White border for Sign Up and Sign In buttons */
+}
+
+/* Ensure border styles are maintained on hover */
+button.sign-up:hover,
+button.sign-in:hover {
+    border: 2px solid rgb(249, 247, 247); /* Red border on hover */
+}
+
+.brand {
+    display: flex;
+    flex-direction: column; /* Stack "Go" and "Grubz" vertically */
+    align-items: center; /* Center align text */
+    margin-right: 30px; /* Space between GoGrubz and centered buttons */
+}
+
+.brand-part {
+    font-size: 24px; /* Larger font size for brand */
+    font-weight: bold; /* Make text bold */
+    color: white; /* Text color for brand */
+    font-family: cursive;
+}
+
+.brand-part:first-child {
+    font-size: 32px; /* Larger font size for "Go" */
+}
+
+.brand-part:last-child {
+    font-size: 24px; /* Slightly smaller font size for "Grubz" */
+}
