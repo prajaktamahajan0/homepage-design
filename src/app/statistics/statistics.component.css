@@ -1,26 +1,16 @@
-.statistics-section {
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: transparent; /* Changed to transparent */
-  /* width: 110%; */
-  /* position: relative; */
-  left: 186px;
-}
 
- h1 {
+ .restra h1 {
   font-size: 3rem;
-  margin: 0;
-  color: white; /* Changed to white */
+  color: white; 
   font-weight: 900;
   line-height: 1.2 !important;
   text-align: center;
+ 
 }
 
- p {
+.para p {
   font-size: 1.5rem;
-  color: white; /* Changed to white */
-  margin: 0;
+  color: white; 
+  margin-bottom: 20px;
   text-align: center;
 }
